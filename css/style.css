@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+}
+
+.header {
+    min-height: 15vh;
+    background-color: blue;
+}
+
+.content {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#one {
+    background-color: green;
+    margin-right: 2vw;
+}
+
+#two {
+    background-color: crimson;
+}
+
+.footer {
+    min-height: 5vh;
+    background-color: blue;
+    
+
+}
